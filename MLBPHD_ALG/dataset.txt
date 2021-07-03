@@ -1,0 +1,8 @@
+AGE_FACTOR,SEX,CHEST_PAIN,BLOOD_PRESSURE,CHLORESTRAL,FBS,ECG,HEART_RATE,EXCERISE,SLOPE,VESSELS,SCAN,HEREDITY,CLASS
+35,male,typ,135,180,150,0.3,normal,yes,2,0,normal,yes,healthy
+46,female,atyp,154,197,110,0.5,abnormal,no,2.5,3,fixed,no,weak
+24,male,non,178,240,80,0.9,normal,yes,3.2,3,reversible,yes,healthy
+88,female,typ,140,300,70,0.1,normal,no,1.4,2,normal,yes,weak
+63,female,atyp,160,280,120,0.2,abnormal,yes,2.5,1,fixed,yes,healthy
+71,male,non,180,190,180,0.7,normal,no,4.2,1,reversible,no,weak
+53,female,typ,144,310,160,0.8,abnormal,yes,3,3,normal,yes,healthy

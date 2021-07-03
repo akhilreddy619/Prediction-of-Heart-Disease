@@ -1,0 +1,22 @@
+connect system/system;
+create user HD identified by HD;
+grant create session,resource to HD;
+
+connect HD/HD;
+
+
+create table tblRegister(Name varchar2(32),UName varchar2(32) primary key,Pwd varchar2(32),PhoneNo varchar2(10)); 
+
+
+create table tblPatients(pat_id varchar2(32),pat_name varchar2(32),age number(3),contact_no varchar2(12),ref_doctor varchar2(32),reg_date date,gender varchar2(8));
+
+
+drop table tblsymptoms;
+create table tblSymptoms(pat_id varchar2(32),age number(3,2),sex number(3,2),chest_pain number(3,2),bp number(3,2),cholestrol number(3,2),fbloodsugar number(3,2),ecg number(3,2),heartrate number(3,2),exercise_habit number(3,2),slope number(3,2),vessels number(3,2),scan number(3,2),heredity number(3,2),class_type number(2));
+
+
+create table tblreports(pat_id varchar2(32),risk varchar2(32),effected number(2));
+
+
+
+
